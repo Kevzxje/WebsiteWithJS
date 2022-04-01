@@ -1,0 +1,72 @@
+:root {
+  --text-p: #fff3ec;
+  --text-h: #fffffe;
+  --text-nav: #271c19;
+}
+
+body {
+  color: var(--text-p);
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+a {
+  color: var(--text-h);
+  text-decoration: none;
+}
+
+.nav {
+  color: var(--text-h);
+  transition: 0.3s ease-in;
+}
+
+.nav:hover {
+  color: var(--text-nav);
+}
+
+.title {
+  text-shadow: 2px 2px 5px red;
+  font-size: 70px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.content2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: "Bebas Neue";
+  color: var(--text-p);
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+.soldout{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.price{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.price1{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.type{
+  font-family: "Bebas Neue";
+  color: var(--text-p);
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.soldout1{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}

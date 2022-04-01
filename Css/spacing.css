@@ -1,0 +1,52 @@
+:root{
+    --spacing1: 4px;
+    --spacing2: 8px;
+    --spacing3: 12px;
+    --spacing4: 16px;
+    --spacing5: 20px;
+    --spacing6: 24px;
+    --spacing7: 28px;
+    --spacing8:32px;
+    --spacing9: 36px;
+    --spacing10: 40px;
+}
+
+.mx-1{
+    margin: 0 var(--spacing1);
+    }
+
+    .mx-2{
+        margin: 0 var(--spacing2);
+        }
+
+        .mx-3{
+            margin: 0 var(--spacing3);
+            }
+
+            .mx-4{
+                margin: 0 var(--spacing4);
+                }
+
+                .mx-5{
+                    margin: 0 var(--spacing5);
+                    }
+
+                    .mx-6{
+                        margin: 0 var(--spacing6);
+                        }
+
+                        .mx-7{
+                            margin: 0 var(--spacing7);
+                            }
+
+                                .mx-8{
+                                margin: 0 var(--spacing8);
+                                }
+
+                                .mx-9{
+                                    margin: 0 var(--spacing9);
+                                    }
+
+                                    .mx-10{
+                                        margin: 0 var(--spacing10);
+                                        }

@@ -1,0 +1,239 @@
+:root {
+  --backgroundcontent-color: #c587a1;
+  --background-color: #55423d;
+  --backgroundb-color: rgb(95, 93, 93);
+  --background-button: #ffc0ad;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.content {
+  font-family: "Vollkorn", serif;
+}
+
+.main {
+  background-color: var(--background-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-m {
+  width: 1000px;
+}
+
+.container-s {
+  width: 500px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1400px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logo-icon {
+  width: 85px;
+}
+
+.contentbg {
+  background-color: var(--backgroundcontent-color);
+  width: 1500px;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.titletext {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  font-size: 80px;
+  width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-item {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 32px;
+  background-color: rgb(253, 104, 104);
+}
+
+.content-item1 {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 32px;
+  background-color: rgb(253, 104, 104);
+}
+
+.item-image {
+  width: 100%;
+  height: 300px;
+}
+
+.imgl1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.desc {
+  padding: 4px;
+}
+
+.item-footer {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 1000px;
+}
+
+.logo-contact {
+  width: 85px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  position: relative;
+}
+
+li a {
+  float: left;
+}
+
+li a:hover {
+  background-color: rgb(247, 118, 247);
+  border-radius: 30px;
+  text-shadow: 2px 2px 2px red;
+  transition: all 0.3s ease-in;
+}
+
+/* .shop {
+  background-color: var(--background-button);
+  padding: 10px;
+  border-top-right-radius: var(--spacing3);
+  font-weight: bold;
+  color: var(--text-p);
+} */
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.nav {
+  position: relative;
+}
+
+.content1 {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content2 {
+  font-size: 80px;
+  width: 1500px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-item {
+  transition: ease-in 0.2s;
+}
+
+.content-item:hover {
+  transform: scale(1.1);
+}
+
+.titlecontent {
+  width: 100%;
+  height: 50px;
+  background-color: #b9698a;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.information1 {
+  font-size: 50px;
+}
+
+table,
+th,
+td {
+  border: 2px black solid;
+}
+
+button {
+  margin: 8px 0;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}

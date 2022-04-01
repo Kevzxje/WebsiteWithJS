@@ -1,0 +1,14 @@
+@import url(./spacing.css);
+@import url(./style.css);
+@import url(./text.css);
+
+button {
+    padding: var(--spacing2) var(--spacing3);
+    background-color: var(--background-button);
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: var(--text-p);
+    font-size: 1.3em;
+    cursor: pointer;
+}
